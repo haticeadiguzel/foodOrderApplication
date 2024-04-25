@@ -1,4 +1,4 @@
-package com.northwind.northwind.core.utilities.results;
+package bulut.md.foodOrderApplication.core.utilities.results;
 
 public class ErrorDataResult<T> extends DataResult<T> {
     public ErrorDataResult(T data, String message) {

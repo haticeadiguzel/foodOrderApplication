@@ -1,4 +1,4 @@
-package com.northwind.northwind.core.utilities.mappers;
+package bulut.md.foodOrderApplication.core.utilities.mappers;
 
 import lombok.AllArgsConstructor;
 import org.modelmapper.ModelMapper;

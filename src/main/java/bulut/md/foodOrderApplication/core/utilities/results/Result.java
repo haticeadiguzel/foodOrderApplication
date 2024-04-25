@@ -1,4 +1,4 @@
-package com.northwind.northwind.core.utilities.results;
+package bulut.md.foodOrderApplication.core.utilities.results;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
