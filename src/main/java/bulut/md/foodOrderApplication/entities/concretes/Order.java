@@ -1,5 +1,6 @@
 package bulut.md.foodOrderApplication.entities.concretes;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -18,6 +19,7 @@ public class Order {
 
     @ManyToOne()
     @JoinColumn(name = "food_id")
+    @JsonIgnore
     private Food food;
 
     @Column(name = "customer_name")

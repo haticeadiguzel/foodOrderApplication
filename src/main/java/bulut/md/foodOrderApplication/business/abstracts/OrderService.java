@@ -11,5 +11,5 @@ import java.util.List;
 public interface OrderService {
     DataResult<List<GetAllOrdersResponse>> getAll();
     DataResult<List<GetByOrderResponse>> getByCustomerName(String customerName);
-    Result add(CreateOrderRequest createFoodRequest);
+    Result add(CreateOrderRequest createOrderRequest);
 }

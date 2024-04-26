@@ -27,6 +27,5 @@ public class Food {
     private BigDecimal foodPrice;
 
     @OneToMany(mappedBy = "food")
-//    @JsonIgnore
     private List<Order> orders;
 }
